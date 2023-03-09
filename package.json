@@ -1,0 +1,35 @@
+{
+  "name": "nodejs-express-starter-kit",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "config": "^3.3.3",
+    "cors": "^2.8.5",
+    "date-fns": "^2.28.0",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-rate-limit": "^5.2.6",
+    "fs": "^0.0.1-security",
+    "helmet": "^4.6.0",
+    "joi": "^17.5.0",
+    "joi-password-complexity": "^5.1.0",
+    "js-sha256": "^0.9.0",
+    "jsonwebtoken": "^9.0.0",
+    "md5": "^2.3.0",
+    "path": "^0.12.7",
+    "pg": "^8.5.1"
+  },
+  "devDependencies": {
+    "eslint": "^8.34.0",
+    "eslint-plugin-react": "^7.32.2",
+    "nodemon": "^2.0.20"
+  }
+}
